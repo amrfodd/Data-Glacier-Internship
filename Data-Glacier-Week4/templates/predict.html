@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Iris Flower Prediction</title>
+</head>
+
+   <body>
+        <div>
+            <h1> Iris Species Prediction</h1>
+        </div>
+        
+       <h2>Your Prediction is:</h2>
+       
+        {%if data == 0%}
+        <h1>Setosa</h1>  
+        <img src='static\setosa.jpg'>  
+
+        {%elif data == 1%}
+        <h1>Versicolor</h1>
+        <img src='static\verci.jpg'>
+
+        {%else%}
+        <h1>Virginica</h1>  
+        <img src='static\flower1.jpg'>
+       
+        {%endif%}
+   </body>
+</html>

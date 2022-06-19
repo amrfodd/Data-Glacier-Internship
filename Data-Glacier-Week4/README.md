@@ -1,6 +1,6 @@
 ## Week 4 
 
-### Deployment on Flask 
+### Deployment ml-model on Flask 
 
 1. Select any toy data (simple data). ( I will use iris dataset)
 

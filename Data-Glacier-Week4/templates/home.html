@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Predict Iris Flower Species </title>
+
+    </head>
+
+    <body>
+        <div>
+            <h1> Iris Species Prediction</h1>
+            <div style="width: 500">
+                <p>Deploy Ml model on Flask</p>
+            </div>
+        </div>
+        
+        <div>
+            <form action="predict" method="POST">
+                <div style="width: 400px">
+                <div>
+                    <div>
+                    <div>Flower Variety Classification</div>
+                    </div>
+                    <div>
+
+                    <div>
+                        <p class="control">
+                        Sepal Length: <input class="input" type="number" value='0.00' step='0.01' name="seplen" id="slen">
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="control">
+                        Sepal Width: <input class="input" type="number" value='0.00' step='0.01' name="sepwid" id="swid">
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="control">
+                        Petal Length: <input class="input" type="number" value='0.00' step='0.01' name="Petlen" id="plen">
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                        Petal Width: <input class="input" type="number" value='0.00' step='0.01' name="Petwid" id="pwid">
+                        </p>
+                    </div>
+
+                    <div>
+                        <button class="button is-fullwidth is-rounded is-success">Submit</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </form>
+        </div>
+        
+  </body>
+</html>

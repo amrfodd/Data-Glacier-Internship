@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Prediction</title>
+</head>
+
+   <body>
+       <!-- Website Title -->
+        <div>
+            <h1> Iris Species Prediction</h1>
+            <div >
+                <p>A Machine Learning Web App, Built with Flask.</p>
+            </div>
+        </div>
+        
+       <h2>Your Prediction is:</h2>
+       
+        {%if data == 0%}
+        <h1>Setosa</h1>  
+        <img src='static\setosa.jpg'>  
+
+        {%elif data == 1%}
+        <h1>Versicolor</h1>
+        <img src='static\verci.jpg'>
+
+        {%else%}
+        <h1>Virginica</h1>  
+        <img src='static\flower1.jpg'>
+
+        {%endif%}
+
+       <!-- Footer -->
+       <div >
+           <h3>By: Amr Elbana</h3>
+       </div>
+   </body>
+</html>
