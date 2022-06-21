@@ -1,23 +1,8 @@
 ## Week 5
 
-### Cloud and API deployment
+## Cloud and API deployment
 
-Task:
-
-1. Select any toy data (simple data) ( You are allowed to use data set of week 4)
-
-2. Save the model ( You are allowed to use model of week 4)
-
-3. Deploy the model on any open source cloud eg Heroku (Deployment should be API based as well as web app)
-
-4. Create pdf document (Name, Batch code, Submission date, Submitted to ) which should contain snapshot of each step of deployment)
-
-5. Upload the document to Github
-
-6. Submit the URL of the uploaded document.
-
-
-In this project, I willl apply supervised learning (classification) algorithms on spam dataset to build spam classifier.
+### In this project, I willl apply supervised learning (classification) algorithms on spam dataset to build spam classifier.
 
 After obtaining cleaned dataset, i cleaned the data and make tfidf tvectorization to make the data ready for the modeling.
 
