@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: testfile
+file_name: cleaned_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - Price
+    - Date_of_Transfer
+    - Property_Type
+    - old_new
+    - Duration
+    - town_city
+    - District
+    - County
+    - PPDCategory_Type
+    - record_status_monthly
